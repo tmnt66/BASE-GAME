@@ -96,11 +96,11 @@
 }
 .gameover{
     /* background-color: gold; */
-    background-image:  url('https://c.tenor.com/HIiVcEQR_xwAAAAM/game-over-its-over.gif' );
+    background-image:  url('https://c.tenor.com/wGwD1kHjS4sAAAAC/you-win-8bit.gif' );
     background-position: center; 
   background-repeat: no-repeat; 
   background-size: cover !important;
-
+  z-index: 100;
   border: 5px solid #63ad59;
   box-sizing: border-box;
 }

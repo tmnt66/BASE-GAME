@@ -19,7 +19,24 @@
     background: palegreen;
     z-index: -99;
 }
-
+#score{
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 59%;
+    left: 9.5%;
+    font-size: 23px;
+    border: 7px solid #9d059d;
+    border-radius: 19px;
+    color: #950295;
+    font-weight: bolder;
+    text-align: center;
+    padding: auto;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-size: 46px;
+}
 .btn{
     height: 100px;
     width: 100px;

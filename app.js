@@ -9,7 +9,7 @@ let playarea = document.getElementById('playarea')
 let random = document.querySelector('.btn')
 
 //variables
-
+let points = 0;
 let steps = 0;
 let yoshi ={class:'yoshi',position:45 , prevPos:45 , score:0};
 let goomba = 54;
@@ -42,7 +42,7 @@ character.classList.add(yoshi.class)
 let play = (yoshi)=>{
     document.addEventListener('keyup',(e)=>{
         if(coinpos.length&&steps!=0){
-
+        
             move.play();
             yoshi.prevPos=yoshi.position;
             let coord = yoshi.position;
@@ -50,21 +50,25 @@ let play = (yoshi)=>{
                 yoshi.position-=10*steps;
                 random.innerHTML= parseInt(Math.random()*10000000%5+1);
                 steps=random.innerHTML;
+                points-=1;
             }
             else if(e.key==='ArrowDown'&&(yoshi.position+10*steps)<99){
                 yoshi.position+=10*steps;
                 random.innerHTML= parseInt(Math.random()*10000000%5+1);
                 steps=random.innerHTML;
+                points-=1;
             }
             else if(e.key==='ArrowLeft'&&(yoshi.position-1*steps)>=(coord-coord%10)){
                 yoshi.position-=1*steps;
                 random.innerHTML= parseInt(Math.random()*10000000%5+1);
                 steps=random.innerHTML;
+                points-=1;
             }
             else if(e.key==='ArrowRight'&&(yoshi.position+1*steps)<(coord-coord%10+10)){
                 yoshi.position+=1*steps;
                 random.innerHTML= parseInt(Math.random()*10000000%5+1);
                 steps=random.innerHTML;
+                points-=1;
             }
           
          
@@ -75,12 +79,17 @@ let play = (yoshi)=>{
                 yoshi.score+=1;
                 coin_take.play();
                 console.log(coinpos)
+                points+=10;
             }
             
             let prevCharacter = document.getElementById(`box${yoshi.prevPos}`);
             prevCharacter.classList.remove(yoshi.class)
+
             let character = document.getElementById(`box${yoshi.position}`);
             character.classList.add(yoshi.class)
+
+            let score = document.getElementById('score')
+            score.innerHTML = points;
         }
         else if(steps!=0){
        

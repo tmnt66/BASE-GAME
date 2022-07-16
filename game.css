@@ -1,0 +1,115 @@
+/* 
+
+#box53 ,#box88 {
+    background-image:  url('https://lh3.googleusercontent.com/67EliQDqay8NmvkUvEpLaCsLNWmRVXCcmZ84QKggmEq_xreluvj2UNWlDRH6XvwhH3GNPzLYmEdXm8Fn5pmZqFoOTQuJvcFUySa38g=w600');
+    background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover;
+}
+
+#box22 ,#box76 {
+    background-image:  url('https://c.tenor.com/qoISHWfrRO8AAAAC/blue_portal.gif');
+    background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover;
+}
+
+#box81 ,#box9 {
+    background-image:  url('https://c.tenor.com/n4Ohx6dPMmEAAAAM/omega-portal.gif');
+    background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover;
+}
+
+#box57 ,#box2 {
+    background-image:  url('https://c.tenor.com/RCIUK6orP0AAAAAd/portal-blender.gif');
+    background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover;
+}
+/* king */
+/* #box46 {
+    background-image:  url('https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Chess_kdt45.svg/800px-Chess_kdt45.svg.png');
+    background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover;
+} */
+/* bomb */
+/* #box4 ,#box64 , #box23 , #box96 , #box39 ,#box60{
+    background-image:  url('https://c.tenor.com/aZMV_bT0gVEAAAAj/the-blobs-live-on-bomb.gif');
+    background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover;
+  background-color: rgb(255, 151, 151);
+} */
+
+/* knight */
+/* #box66 ,#box14 {
+    background-image:  url('https://images.chesscomfiles.com/uploads/v1/article/12640.d8368484.668x375o.17521c3e62ba@2x.png');
+    background-position: center; 
+  background-repeat: no-repeat;
+  background-size: cover;
+}  */
+/* coins */
+/* #box78 ,#box16 ,#box12 , #box28 , #box36 , #box47 , #box89 , #box20 , #box58 ,#box98 ,#box41 ,#box25 , #box73 , #box87 , #box33 , #box5 ,#box62,#box84 , #box65 ,#box90 ,#box93  {
+    background-image:  url('https://acegif.com/wp-content/gifs/coin-flip-5.gif');
+    background-position: center;
+  background-repeat: no-repeat; 
+  background-size: cover;
+  
+} */
+.coin{
+    background-image:  url('https://acegif.com/wp-content/gifs/coin-flip-5.gif');
+    background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+  
+}
+
+/* start */
+/* 
+#box54{
+    background-color: gold;
+    background-image:  url('https://c.tenor.com/Mk9Pd4ObhCcAAAAM/goomba.gif');
+    background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover;
+} */
+
+/* #box44{
+    background-color: gold;
+    background-image:  url('https://mario.wiki.gallery/images/3/33/PMCS_Koopa_Troopa_Idle_Animated.gif');
+    background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover;
+} */
+
+.yoshi{
+    /* background-color: gold; */
+    background-image:  url('https://64.media.tumblr.com/7e27ea4954e49d8e8c685b4385a6f306/3b5d0ec8eae36845-3e/s500x750/2443a4e6a136d867a697ac229950a4f7665893bc.gifv' );
+    background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover !important;
+  z-index: 100;
+  border: 5px solid #63ad59;
+  box-sizing: border-box;
+}
+.gameover{
+    /* background-color: gold; */
+    background-image:  url('https://c.tenor.com/HIiVcEQR_xwAAAAM/game-over-its-over.gif' );
+    background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover !important;
+
+  border: 5px solid #63ad59;
+  box-sizing: border-box;
+}
+
+/* #box55{
+    background-color: gold;
+    background-image:  url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/6c30530c-b2ee-47df-96c9-74ebbfeeb9d2/ddx3jwn-1e6c1c2f-6675-4579-8c55-c8fb01ce4d62.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzZjMzA1MzBjLWIyZWUtNDdkZi05NmM5LTc0ZWJiZmVlYjlkMlwvZGR4M2p3bi0xZTZjMWMyZi02Njc1LTQ1NzktOGM1NS1jOGZiMDFjZTRkNjIuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.ynrw5kCR86GDATJOFUFYv4WwCMLzoMbkhzNfgxrQQYE');
+    background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover;
+} */
+

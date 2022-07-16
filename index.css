@@ -1,0 +1,37 @@
+#playarea{
+    /* border: 2px solid red; */
+    border: 2px solid #12ff00;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    padding: 5px;
+    width: 100vh;
+    margin: auto;
+    height: 100vh;
+    border-radius: 13px;
+}
+
+.box{
+    height: 65px;
+    /* border: 1px solid blue; */
+    align-items: center;
+    border-radius: 13px;
+    margin: 1px;
+    background: palegreen;
+    z-index: -99;
+}
+
+.btn{
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 42%;
+    left: 10%;
+    font-size: 23px;
+    border: 7px solid #9d059d;
+    border-radius: 19px;
+    color: #950295;
+    font-weight: bolder;
+}
+
+
+
